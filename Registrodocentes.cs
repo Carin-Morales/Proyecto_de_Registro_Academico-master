@@ -7,17 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 using MySql.Data;
-
-
 using MySql.Data.MySqlClient;
+
 namespace Proyecto_de_Registro_Academico
 
 
 {
     public partial class Registrodocentes : Form
     {
-        public string cadena_conexion = "database = ars; data source = localhost; user id = carinS; password=123456";
+        public string cadena_conexion = "database = ars; data source = localhost; user id = fernando; password=123";
 
 
         public Registrodocentes()
@@ -75,19 +75,19 @@ namespace Proyecto_de_Registro_Academico
             {
                 MySqlConnection myConnection = new MySqlConnection(cadena_conexion);
 
-                string myInsertQuery = "INSERT INTO docentes (nombre_docente, dui, fecha_de_nacimiento,direccion,telefono,correo,profecion,area,usuario,contraseña) Values(?nombre_docente,?dui,?fecha_de_nacimiento,?direccion,?telefono,?correo,?profecion,?area,?usuario,?contraseña)";
+                string myInsertQuery = "INSERT INTO docentes (NombreDocente, DUI, FechaNacimiento, DireccionDocente, Telefono, Correo, Profesion, Area, Usuario, Contraseña) Values(?NombreDocente,?DUI,?FechaNacimiento,?DireccionDocente,?Telefono,?Correo,?Profesion,?Area,?Usuario,?Contraseña)";
 
                 MySqlCommand myCommand = new MySqlCommand(myInsertQuery);
-                myCommand.Parameters.Add("?nombre_docente", MySqlDbType.VarChar,50).Value = txtn.Text;
-                myCommand.Parameters.Add("?dui", MySqlDbType.Int32,20 ).Value = txtd.Text;
-                myCommand.Parameters.Add("?fecha_de_nacimiento", MySqlDbType.Date,20).Value = dateTime.Value;
-                myCommand.Parameters.Add("?direccion", MySqlDbType.VarChar, 50).Value = txtdirec.Text;
-                myCommand.Parameters.Add("?telefono", MySqlDbType.Int32, 11).Value = txtt.Text;
-                myCommand.Parameters.Add("?correo", MySqlDbType.VarChar, 50).Value = txtcorreo.Text;
-                myCommand.Parameters.Add("?profecion", MySqlDbType.VarChar, 50).Value = combopro.Text;
-                myCommand.Parameters.Add("?area", MySqlDbType.VarChar, 50).Value = comboarea.Text;
-                myCommand.Parameters.Add("?usuario", MySqlDbType.VarChar, 50).Value = texU.Text;
-                myCommand.Parameters.Add("?contraseña", MySqlDbType.VarChar, 50).Value = texC.Text;
+                myCommand.Parameters.Add("?NombreDocente", MySqlDbType.VarChar,75).Value = txtn.Text;
+                myCommand.Parameters.Add("?DUI", MySqlDbType.Int32,9 ).Value = txtd.Text;
+                myCommand.Parameters.Add("?FechaNacimiento", MySqlDbType.Date,20).Value = dateTime.Value;
+                myCommand.Parameters.Add("?DireccionDocente", MySqlDbType.VarChar, 50).Value = txtdirec.Text;
+                myCommand.Parameters.Add("?Telefono", MySqlDbType.Int32, 10).Value = txtt.Text;
+                myCommand.Parameters.Add("?Correo", MySqlDbType.VarChar, 50).Value = txtcorreo.Text;
+                myCommand.Parameters.Add("?Profesion", MySqlDbType.VarChar, 50).Value = combopro.Text;
+                myCommand.Parameters.Add("?Area", MySqlDbType.VarChar, 50).Value = comboarea.Text;
+                myCommand.Parameters.Add("?Usuario", MySqlDbType.VarChar, 50).Value = texU.Text;
+                myCommand.Parameters.Add("?Contraseña", MySqlDbType.VarChar, 25).Value = texC.Text;
 
 
                 myCommand.Connection = myConnection;

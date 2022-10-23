@@ -81,10 +81,55 @@ namespace Proyecto_de_Registro_Academico
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DocenteRegistro DR = new DocenteRegistro();
+            ListadoDocentes DR = new ListadoDocentes();
             this.Hide();
             DR.ShowDialog();
             this.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            acerca_de ad = new acerca_de();
+            this.Hide();
+            ad.ShowDialog();
+            this.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Proyecto_verde pv = new Proyecto_verde();
+            this.Hide();
+            pv.ShowDialog();
+            this.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Contactos c = new Contactos();
+            this.Hide();
+            c.ShowDialog();
+            this.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            RegistrarEstudiantes rge = new RegistrarEstudiantes();
+            this.Hide();
+            rge.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ListadoEstudiantes le = new ListadoEstudiantes();
+            this.Hide();
+            le.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Iniciar_Sesion ins = new Iniciar_Sesion();
+            this.Hide();
+            ins.Show();
         }
     }
 }

@@ -117,35 +117,67 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bombilla-ecologica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bombilla-ecologica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH5goXEAkfy1swdAAABNVJREFU
+        eF7tmmnoZlMcx/+WkTANJhJijBe2GVv22RrR8MILQtYpkogs2RWZGluZzFbINMQLIXtR9rwgS3aiZClE
+        jcagYYwZ8/lOc+vb6d77PPf5/+79P3I+9anpP+f8znme595zfmcZyWQymUwmk8nEsQXujsfgcZs8FU8z
+        z8ALE89EL3MyFvVn4F64FQ4lR+Gd+AmuxX9bcj1+jffiSagve0yZjq9hWWe78As8CzfDTlGD1+E6LOtY
+        1z6G22JnLMOyjhSuQT2q723yDXzJfBHVafd59DKvYFH/M/wDy9oqfBe3w9a5Bss68BZqMJuEm2MbTMRT
+        8FEse/qexFZfh4PxH/RGf0ON2l0zFTUGeF/kxdgaT6M39jseimPF9qiZx/v0PW6N4eyDmoa8sbOxK5QH
+        3I53o3/pe+Nf6P06H8O5Gr0RffNtvespe+JKLNr+G6dhwVL0vj2F4byM3oimwa6Yh962fAQLjkT/P41L
+        W2Ioere8kcNwUDSAKfW9AjWrnIv6Rasyu/nobcvHsUBP4ir0/9dsFMY4TEf/HbEJGrD0QZQfeBx3Bd6P
+        et8djT+rsSinseh4dD5Gj6X1Qxh7oAdXUtIEDUq/oMeoU4mU1hb+GB+I+nIexmP1h4Tn0GMoRQ5jP/Tg
+        eh36QY/0IvS6TdS4swP2g74Yr3sBhqF31oN/i/1wF3q9Qv3C+nD34WJ8Bn/FsrKvo17BXjyAXu8iDOMQ
+        9OBfYS/0CHodqff4FpyAKfqQelV+xLTeEuyFXg+vcwmGcTh68C+xjm3wB/Q6P2E/M8cuqIWN19UArKew
+        Du0ReJ3LMIyj0YNrdVZHmjQpU9OmSb/sjN+hx9BCp440GboSw9CU4sE15dShJayX11jQFG2jeQx9ieOx
+        inSw1Y8Qxmz04O9jFbuirxn0b+0RNkXLWg223q6WwlUsQC8bmqkq6fDg72AVs9DL9npa6tAs4bGuxyqU
+        N3jZGzGME9CDa/OjCqW4XlZT3KDoA3ssTZlV3IZe9iYM40T04G9iFdry9rLP4qDcgB5L73kVt6KXvRnD
+        +N+/AsMyCOqwpIp0ELwWw0inwY+wjjSRUeeaon1Gj9FrGlyIXv4qDEPHXB68VyKkxr18RCL0BNaRJkKX
+        YxhHoAdvOxXWGON1lQpPwTrSVPhSDEObkB68n8VQOh3KQRdDddNfQboYCl0NHoQePGo5fA9qamtjORy6
+        H3AAevAmGyL69bxuE0ezIXIehqENRg+uA5EmRGyJ9UIJl8c4HcPQI5iexfX7yxQUm6LfoMdxtSmqg9fJ
+        2BRNzR6ryazTF+ngNJojsWJbXGt2pbtzsW5bvBdKmtIxZDcM5VX0BkLX26NE06v3TadI4adWSi29kQ+w
+        1aPoBqSbIbpvEM6+6Dm+DB1oBkTjxZ/o/dJJUytovvaG9N7tj2OF1gYfovdJOUprt8nKLkhoetOGSdfo
+        sOZT9L7I0Pm/jHQsKNSdHp0F7IRtoYtQ+rIfxLLreLo608m4tBzTxl2d1Or+gF96kunFqIdQsdK/v4Be
+        T8vrn7GsrcK3sbObYvqWh+manO4KaAXaObooqcVKWae68HMchplo48nRHaj9P11fKetshJqGh+qqbBnq
+        lNLQppelz0EvI+eg6s9EzfdDe1k6k8lkMplM5j/GyMgG7OhGsh7zRTYAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="cuadricula" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cuadricula.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH5goXEAgHwSyZYwAAAwJJREFU
+        eF7t2smrT2Ecx/GLMhdCSoZiRUkpQ8mwsLEwJCSKotiwUDbiP0BRKBvDjg1lIVNJVkoJUcoQe5lCyfT+
+        yFO/fn3P755z7jPdPJ96Le69v/t8z/3ec57znKGvpKSkpKSkpKSkXUZhJbZhd2SquQLahuiZiQv4it+J
+        fcF5zECUrMZHWBuT0mesR9Csw09YG5ADbdtaBIl2e3XZKpyTTwhyOOg4swrm6By8RjOtJhurWI40OY+G
+        t+hUZxXK2XJ4i865VpGcbYW3aOFhFcmZttlbSgNgFQnhHR7jFX78+14bSRrwy/heXbexFEPhMgkH8AHu
+        c1qFnkJ/zYnegOfYjjZNOIohqMocnIUm4/E4CGucTtEbcBjKHjTZdS+j1x/fHV0BfsMbWOM50RuwES5a
+        j7+H9blOWrvPQt1MwU7Mw01YYzrRG9B9JaZrhxuwPus8QNMMwxlY43WK3oD9sLIG92H9zkU0yQhchTVW
+        t+gNuIdeWYQjeAI3R+j4b5Jp6K5bJXoDZAPqZCzmY/Hfr+pnLqy6lugN0H/3IVYhVJbBqm2J3gB3E0LH
+        aajsgFXbEr0BXgtW5DSs2pboDXiBMQiZR7BqW6I3QC5B5+kQ0eLHqlklSQPkFmbDd47BqlclWQO0utNK
+        TTO2r0xG02cRyRrwFr7PBCdh1eolWQPkBHxlIb7DqtNL0gbIcQzHQDIBr2GN35/kDZCXOAStDptc8ys6
+        jK7DGreOLBogT7EETTIS12CNV1fSBuiYvYNNaLou0JL6Lqxxm4jaAF3v78Nm6PTXZkWoQ0T3FDtvgA5E
+        9D1At7H1uXFoEh3ru/AM1rhtRW+AoweTWhLvhW6CTISbAHVWmIoF0M+voM69wzaSNaCKr127Lq8N0ING
+        q0jOtsBb/vvH44PtBQltq/fX5/TaiVUsR3qM5j160KEXkKyCOdE2TkeQ6JFX7q/J6UFM0OhFydintDqi
+        vCjpovW65oQcJkZtg475YLt9r2im1ekm1cvSuu5I8rJ0SUlJSUlJSckgT1/fH44V4Yk+OXQHAAAAAElF
+        TkSuQmCC
+</value>
   </data>
-  <data name="maximizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maximizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="minimizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="coche" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coche.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cerrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cerrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="jardineria" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jardineria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bala" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="papelera-de-reciclaje" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\papelera-de-reciclaje.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH5goXEAYnZMGUJQAAAdVJREFU
+        eF7tmjtKBUEQRUdjAxH84GcNJoaauAR1C+oK3ISxie5AFFfiFtTURMENqLfAgUbum5pPNXQP98AJq6vf
+        nTc97zHVCCGEEEKIYezBU3hRiLaXXZidLfgEv+FPYdqeHuEmzIJ9+DfImpfkK9yA4diVZw1L9AGGsgNL
+        /Nov0vYaeiacQdaoZE9gGOeQNSlZ23MY9qhhTUrW9hyGAoCsSQ4/4DU8hPboXYIMVptaZQB3cBX2gdWn
+        VhfAFRwCWyO1qgBu4VDYOqnVBPAJ1+BQ2Fqp1QRgB94Y2Fqp1QRwBMfA1kqtJgDv7+sxfIeststqAliG
+        XdxAVudZTQAe9oRgdZ4KAIahACBrEqGHAoCszrO4AEI39MczZL3M2QdwAFmf1tkH4N0asw5gBX5B1qd1
+        1gFcQtYjddYBdB1+rbMNYB+y9f9bXACL9NAPIcjqPBUADEMBQNYkQg8FAFmdpwKAYSgAyJpE6FFEADkH
+        JDzGBhA6IGFzeKxJhB5jAwgdkck5JOUxJoDwISnDhhBZs6l6jAngHoZjr7BsCJE1nKLH0ABe4DrMgk1g
+        2hBi5O3g0TcA25Nd+WwfPsXOBDtk7FEzVQ97e8zqUm0v21AIIYQQQvSjaX4BZ3UdLqi2PCQAAAAASUVO
+        RK5CYII=
+</value>
   </data>
 </root>

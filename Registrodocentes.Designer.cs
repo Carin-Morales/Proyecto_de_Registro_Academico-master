@@ -48,6 +48,11 @@ namespace Proyecto_de_Registro_Academico
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.texC = new System.Windows.Forms.TextBox();
+            this.texU = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.comboarea = new System.Windows.Forms.ComboBox();
             this.combopro = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -57,11 +62,6 @@ namespace Proyecto_de_Registro_Academico
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.texU = new System.Windows.Forms.TextBox();
-            this.texC = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.restaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.maximizar)).BeginInit();
@@ -286,6 +286,51 @@ namespace Proyecto_de_Registro_Academico
             this.groupBox2.Text = "Informacion Academica ";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // texC
+            // 
+            this.texC.Location = new System.Drawing.Point(109, 210);
+            this.texC.Name = "texC";
+            this.texC.PasswordChar = '*';
+            this.texC.Size = new System.Drawing.Size(222, 28);
+            this.texC.TabIndex = 12;
+            // 
+            // texU
+            // 
+            this.texU.Location = new System.Drawing.Point(109, 168);
+            this.texU.Name = "texU";
+            this.texU.Size = new System.Drawing.Size(222, 28);
+            this.texU.TabIndex = 11;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(9, 213);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(89, 21);
+            this.label12.TabIndex = 8;
+            this.label12.Text = "Contraseña";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(18, 168);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(64, 21);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "Usuario";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(9, 129);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(163, 21);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "Creacion de Usuario";
+            // 
             // comboarea
             // 
             this.comboarea.FormattingEnabled = true;
@@ -356,7 +401,7 @@ namespace Proyecto_de_Registro_Academico
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(132, 401);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 49);
+            this.button1.Size = new System.Drawing.Size(104, 35);
             this.button1.TabIndex = 3;
             this.button1.Text = "GUARDAR";
             this.button1.UseVisualStyleBackColor = false;
@@ -369,7 +414,7 @@ namespace Proyecto_de_Registro_Academico
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(566, 401);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(122, 49);
+            this.button2.Size = new System.Drawing.Size(104, 35);
             this.button2.TabIndex = 4;
             this.button2.Text = "CERRAR";
             this.button2.UseVisualStyleBackColor = false;
@@ -382,7 +427,7 @@ namespace Proyecto_de_Registro_Academico
             this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(268, 401);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(122, 49);
+            this.button4.Size = new System.Drawing.Size(104, 35);
             this.button4.TabIndex = 6;
             this.button4.Text = "Limpiar";
             this.button4.UseVisualStyleBackColor = false;
@@ -394,54 +439,10 @@ namespace Proyecto_de_Registro_Academico
             this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Location = new System.Drawing.Point(413, 401);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(122, 49);
+            this.button5.Size = new System.Drawing.Size(104, 35);
             this.button5.TabIndex = 7;
             this.button5.Text = "Actualizar";
             this.button5.UseVisualStyleBackColor = false;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(9, 129);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(163, 21);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "Creacion de Usuario";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(18, 168);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(64, 21);
-            this.label11.TabIndex = 7;
-            this.label11.Text = "Usuario";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(9, 213);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(89, 21);
-            this.label12.TabIndex = 8;
-            this.label12.Text = "Contraseña";
-            // 
-            // texU
-            // 
-            this.texU.Location = new System.Drawing.Point(109, 168);
-            this.texU.Name = "texU";
-            this.texU.Size = new System.Drawing.Size(222, 28);
-            this.texU.TabIndex = 11;
-            // 
-            // texC
-            // 
-            this.texC.Location = new System.Drawing.Point(109, 210);
-            this.texC.Name = "texC";
-            this.texC.Size = new System.Drawing.Size(222, 28);
-            this.texC.TabIndex = 12;
             // 
             // Registrodocentes
             // 
